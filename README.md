@@ -1,4 +1,4 @@
-🚀 Built with FastAPI + Deep Learning for real-time stock prediction
+# 🚀 AI Stock Prediction Dashboard (FastAPI + Deep Learning)
 # 📊 AI Stock Prediction Dashboard
 
 An end-to-end **AI-powered stock prediction web application** built using **FastAPI and Deep Learning models**.
@@ -23,14 +23,29 @@ An end-to-end **AI-powered stock prediction web application** built using **Fast
 
 ## 📸 Screenshots
 
-> Add your screenshots here (very important)
-
-Example:
-
+### 🏠 Dashboard
 ![Dashboard](images/dashboard.png)
-![Graph](images/graph.png)
+
+### 📈 Prediction Graph
+![Prediction](images/graph.png)
+
+### 📊 Model Comparison
+![Comparison](images/graph1.png)
+
+### 🔮 Forecast (30 Days)
+![Forecast](images/graph2.png)
+
+### 💹 Buy/Sell Signal
+![Signal](images/graph3.png)
 
 ---
+
+## 💡 Key Highlights
+
+- Built full-stack ML application using FastAPI
+- Implemented 4 deep learning models
+- Real-time stock data using yFinance API
+- Interactive charts using Chart.js
 
 ## 🛠️ Tech Stack
 
