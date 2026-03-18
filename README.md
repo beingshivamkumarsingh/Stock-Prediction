@@ -1,18 +1,34 @@
+🚀 Built with FastAPI + Deep Learning for real-time stock prediction
 # 📊 AI Stock Prediction Dashboard
 
-A web-based stock prediction system built using **FastAPI** and **Deep Learning models (LSTM, RNN, CNN, ANN)**.
-It predicts stock prices, compares model performance, and generates trading signals.
+An end-to-end **AI-powered stock prediction web application** built using **FastAPI and Deep Learning models**.
 
 ---
 
 ## 🚀 Features
 
-* 📈 Stock Price Prediction (Apple, Google, Microsoft)
-* 🤖 Multiple Models (ANN, LSTM, RNN, CNN)
-* 📊 Model Comparison using RMSE
-* 🔮 30-Day Future Forecast
-* 💹 Buy / Sell / Hold Signal
-* 🌐 Interactive Dashboard (HTML, CSS, JS)
+* 📈 Real-time stock prediction (Apple, Google, Microsoft)
+* 🤖 Multiple ML Models:
+
+  * ANN
+  * LSTM
+  * RNN
+  * CNN
+* 📊 Model comparison using RMSE
+* 🔮 30-day future forecast
+* 💹 Buy / Sell / Hold signal
+* 🌐 Interactive dashboard with charts
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots here (very important)
+
+Example:
+
+![Dashboard](images/dashboard.png)
+![Graph](images/graph.png)
 
 ---
 
@@ -52,37 +68,27 @@ stock_prediction_project/
 │   ├── style.css
 │   └── script.js
 │
+├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation
 
-### 1️⃣ Clone the repository
-
-```
-git clone https://github.com/beingshivamkumarsingh/Stock-prediction.git
+```bash
+git clone https://github.com/beingshivamkumarsingh/Stock-Prediction.git
 cd Stock-Prediction
-```
-
-### 2️⃣ Install dependencies
-
-```
-pip install fastapi uvicorn numpy pandas scikit-learn yfinance tensorflow jinja2
-```
-
-### 3️⃣ Run the server
-
-```
+pip install -r requirements.txt
 uvicorn app:app --reload
 ```
 
 ---
 
-## 🌐 Usage
+## 🌐 Run Project
 
-Open your browser and go to:
+Open browser:
 
 ```
 http://127.0.0.1:8000
@@ -92,28 +98,22 @@ http://127.0.0.1:8000
 
 ## 📊 API Endpoints
 
-* `/predict/{stock}` → Prediction + Forecast
-* `/signal/{stock}` → Buy/Sell signal
-
-### Example:
-
-```
-/predict/apple
-/signal/google
-```
+* `/predict/{stock}` → prediction + forecast
+* `/signal/{stock}` → buy/sell signal
 
 ---
 
 ## ⚠️ Notes
 
-* First run may take time (model training)
-* Internet required (for stock data via yFinance)
+* Models are trained at runtime (for demo purpose)
+* First run may take time
+* Internet required for stock data
 
 ---
 
 ## 🔥 Future Improvements
 
-* Save & reuse trained models
+* Save trained models
 * Add more stocks
 * Deploy online (Render / Railway)
 * Improve UI (trading dashboard style)
@@ -129,4 +129,3 @@ http://127.0.0.1:8000
 ## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
-# Stock-Prediction
