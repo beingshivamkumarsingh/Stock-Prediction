@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI Stock Prediction Dashboard</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<h1>AI Stock Prediction Dashboard</h1>
+
+<select id="stock">
+<option value="apple">Apple</option>
+<option value="google">Google</option>
+<option value="msft">Microsoft</option>
+</select>
+
+<button onclick="predict()">Predict</button>
+
+<h2 id="bestModel"></h2>
+
+<div id="signalBox"></div>
+
+<h3>Prediction Graph</h3>
+<canvas id="predictionChart"></canvas>
+
+<h3>Model Comparison</h3>
+<canvas id="compareChart"></canvas>
+
+<h3>30 Day Forecast</h3>
+<canvas id="forecastChart"></canvas>
+
+
+<!-- Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<!-- JS -->
+<script src="/static/script.js"></script>
+
+</body>
+</html>
